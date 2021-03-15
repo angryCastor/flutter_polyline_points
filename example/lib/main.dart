@@ -35,7 +35,7 @@ class MapScreen extends StatefulWidget {
 }
 
 class _MapScreenState extends State<MapScreen> {
-  GoogleMapController mapController;
+  GoogleMapController? mapController;
   double _originLatitude = 6.5212402, _originLongitude = 3.3679965;
   double _destLatitude = 6.849660, _destLongitude = 3.648190;
   Map<MarkerId, Marker> markers = {};
